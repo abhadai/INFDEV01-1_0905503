@@ -5,7 +5,7 @@ fahrenheit = input("Type a number to convert to Celsius:")
 fahrenheit = float(fahrenheit)
 
 #Calculate Celsius
-celsius = round((fahrenheit - 32) * 5 /9)
+celsius = round((fahrenheit - 32) * 5 /9, 2)
 
 # Convert float to string and give user feedback
 print(str(fahrenheit) + " Fahrenheit is " + str(celsius) + " Celsius")
