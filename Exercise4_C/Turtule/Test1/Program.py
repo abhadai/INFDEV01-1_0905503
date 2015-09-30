@@ -20,6 +20,7 @@
 #
 #By combining forward and turn (inside loops) you are able to draw lots of nice shapes :) good luck and have fun!
 
+global distances
 
 def Program():
     #SUPPORTING INSTRUCTION
@@ -35,5 +36,28 @@ def Program():
     #---------------------------------------------------------------------
     #                  PUT YOUR CODE BELOW
     #---------------------------------------------------------------------
+
+    total_distance = 0
+    input = get()
+    
+    # W (turn)
+    if input == 119:
+        turn(-10)
+        total_distance += 1
+    
+    # D (forward)
+    if input == 100:
+        forward(2)
+        total_distance += 1
+    
+    # A (backwards)
+    if input == 97:
+        forward(-2)
+        total_distance += 1
+
+    if total_distance == 1:
+        change_color_to("Red")
+
+
 run(Program)
 from End import *
