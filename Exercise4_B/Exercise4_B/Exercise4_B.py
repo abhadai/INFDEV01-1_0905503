@@ -1,6 +1,6 @@
 ﻿while True:
     # Ask player 1 for input
-    player_one_choice = input("Player 1, type R for rock, P for paper or S for scissors!")
+    player_one_choice = input("Player 1, type R for rock, P for paper, S for scissors, SP for Spock or L for lizard!")
     player_one_choice = player_one_choice.capitalize()
 
     # Ask player 2 for input
@@ -42,3 +42,36 @@
     # Scissors beats paper
     if(player_one_choice == "S" and player_two_choice == "S"):
         print("No one wins! The two scissor lived happily ever after.")
+
+    if(player_one_choice == "SP" and player_two_choice == "R"):
+        print(" P1 wins! Spock vaporizes rock!")
+
+    if(player_one_choice == "SP" and player_two_choice == "S"):
+        print("P1 wins! Spock smashes scissors!")
+
+    if(player_one_choice == "SP" and player_two_choice == "L"):
+        print("P2 wins! Lizard poisons Spock!")
+
+    if(player_one_choice == "SP" and player_two_choice == "SP"):
+        print("Tie! You both chose Spock!")
+
+    if(player_one_choice == "SP" and player_two_choice == "P"):
+        print("P2 wins! Paper disproves Spock!")
+    
+    if(player_one_choice == "L" and player_two_choice == "S"):
+        print("P2 wins! Scissors decapitates lizard!")
+
+    if(player_one_choice == "L" and player_two_choice == "R"):
+        print("P1 wins! Rock crushes lizard!")
+
+    if(player_one_choice == "L" and player_two_choice == "P"):
+        print("P1 wins! Lizard eats paper!")
+
+    if(player_one_choice == "L" and player_two_choice == "L"):
+        print("Tie! You both chose lizard!")
+
+    if(player_one_choice == "L" and player_two_choice == "SP"):
+        print("P1 wins! Lizard poisons Spock!")
+
+    if(player_one_choice == "L" and player_two_choice == "L"):
+        print("Tie! You both chose lizard!")
