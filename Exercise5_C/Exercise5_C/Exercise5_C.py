@@ -1,14 +1,17 @@
-﻿character = input("Type a character (A-Z)")
-number = input("Type a number (0-26)")
-alphabet = "abcdefghijklmnopqrstuvwxyz"
-alphabet = list(alphabet)
-i = 0
+﻿text = input("Type a text!")
+number = input("Type a number (1-26)")
+number = int(number)
+feedback = ""
 
-print(number)
+for t in text:
 
-for a in alphabet:
-    i += 1
+    # ORD gets the next ascii character
+    new = ord(t) + number
 
-    if i == number:
-        a -= number
-        print(alphabet[a])
+    #Convert ASCII chracter to readable output
+    new = chr(new)
+
+    # Append to feedback
+    feedback += new
+
+print(feedback)

@@ -8,8 +8,12 @@ length = int(length)
 output = ""
 
 for h in range(0, height):
-      output += "\n"
+      #output += "\n"
       for l in range(0, length):
-          output += "*"       
+          #output += "*"
 
+          if h == 0 | h == height - 1 | l == length - 1:
+              output += "*"
+          else:
+              output += " "
 print(output)
