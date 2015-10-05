@@ -1,4 +1,4 @@
-height = input("Type the number of asteriks you want for the height")
+﻿height = input("Type the number of asteriks you want for the height")
 length = input("Type the number of asteriks you want for the length")
 output = ""
 

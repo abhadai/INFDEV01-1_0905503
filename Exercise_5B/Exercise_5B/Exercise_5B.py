@@ -1,4 +1,4 @@
-password = input("Type a password. This application will calculate it's strength")
+﻿password = input("Type a password. This application will calculate it's strength")
 weak_password_count = 0
 feedback = []
 capital_count = 0
