@@ -1,4 +1,4 @@
-# Triangles
+﻿# Triangles
 
 number = input("Enter the maximal length of asteriks you want to use to draw a triangle!")
 number = int(number)
@@ -16,6 +16,7 @@ for i in range (0, number):
 
     output += "\n"
     spaces -= 1
+0
 
 
 print(output)

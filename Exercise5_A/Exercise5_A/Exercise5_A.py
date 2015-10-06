@@ -1,5 +1,7 @@
-sentence = input("Type something. It will reverse your sentence")
+﻿sentence = input("Type something. It will reverse your sentence")
+output = ""
 
-# -1 reverses string
-sentence = sentence[::-1]
-print(sentence)
+for s in reversed(sentence):
+    output += s
+
+print(output)
