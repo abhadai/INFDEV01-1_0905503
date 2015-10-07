@@ -39,20 +39,22 @@ def Program():
 
     total_distance = 0
     input = get()
+    speed = 5
+    angle = -10
     
     # W (turn)
     if input == 119:
-        turn(-10)
+        turn(angle)
         total_distance += 1
     
     # D (forward)
     if input == 100:
-        forward(2)
+        forward(speed)
         total_distance += 1
     
     # A (backwards)
     if input == 97:
-        forward(-2)
+        forward(abs(speed))
         total_distance += 1
 
     if total_distance == 1:
