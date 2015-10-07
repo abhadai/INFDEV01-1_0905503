@@ -3,15 +3,15 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>17648063-8686-42b5-a3e7-013ca3a11078</ProjectGuid>
+    <ProjectGuid>b3d06edd-1eb8-4cc9-9fa8-d6135e1d6c1b</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Exercise5_C.py</StartupFile>
+    <StartupFile>Exercise_5C.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
-    <Name>Exercise5_C</Name>
-    <RootNamespace>Exercise5_C</RootNamespace>
+    <Name>Exercise_5C</Name>
+    <RootNamespace>Exercise_5C</RootNamespace>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
@@ -22,7 +22,7 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Exercise5_C.py" />
+    <Compile Include="Exercise_5C.py" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

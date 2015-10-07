@@ -1,4 +1,4 @@
-﻿text = input("Type a text!")
+text = input("Type a text!")
 number = input("Type a number (1-26)")
 number = int(number)
 feedback = ""
