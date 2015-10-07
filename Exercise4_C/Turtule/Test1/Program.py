@@ -54,10 +54,19 @@ def Program():
     
     # A (backwards)
     if input == 97:
-        forward(abs(speed))
+        forward(-10)
         total_distance += 1
-
-    if total_distance == 1:
+    
+    # B
+    if input == 98:
+        change_color_to("Blue")
+    
+    # G
+    if input == 103:
+        change_color_to("Green")
+    
+    # R
+    if input == 114:
         change_color_to("Red")
 
 
